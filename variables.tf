@@ -13,3 +13,7 @@ variable "associate_security_group" {
 variable "ami_key_pair_name" {
   default = "luciosmauros_treinos"
 }
+
+variable "ssh_key" {
+  default = "id_rsa.pub"
+}
