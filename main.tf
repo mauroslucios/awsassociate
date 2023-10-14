@@ -25,7 +25,7 @@ resource "aws_instance" "associate" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "associateaws"
+    Name = "associateaws_mauro"
   }
 
   iam_instance_profile = aws_iam_instance_profile.associate_profile.id
